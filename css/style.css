@@ -1,0 +1,183 @@
+COVID
+/*--Let's start by styling all semantic elements---*/
+
+h1,
+h2,
+form {
+    border: 1px black solid;
+}
+
+html {
+    height: 100%;
+}
+
+.text {
+    padding-top: 40px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+/*--Defining a class to style a particular bloc element--*/
+
+.grayBackground {
+    background-color: #F0F2F1;
+}
+
+.blueBackground {
+    background-color: #1F85DE;
+}
+
+.pinkBackground {
+    background-color: #ecc7e3;
+}
+
+.orangeBackground {
+    background-color: #DE781F;
+}
+
+p.purpleBackground {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+/***********************************/
+
+.search .container-search {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+legend {
+    padding: 10px 50px;
+}
+
+.search .input-field .search-button .tracker {
+    padding: 10px;
+    width: 350px;
+}
+
+@media only screen and (min-width: 450px) {
+    .search .input-field {
+        width: 300px;
+    }
+}
+
+@media (min-width: 640px) {
+    .search {
+        padding-right: 100px;
+    }
+}
+
+.search {
+    padding: 20px;
+}
+
+.btn-search {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+
+/* ----- logo ------ */
+
+.logo {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+
+.logo a {
+    padding: 20px;
+}
+
+.form button {
+    padding: 5px;
+    font-family: "Balsamiq Sans", cursive;
+}
+
+.form button:hover {
+    background-color: #A167a5;
+    color: #E8d7F1;
+}
+
+.giphyBox {
+    display: flex;
+    align-items: center;
+    background-color: #D3BCCC;
+    margin: 5px;
+    padding: 10px;
+}
+
+.giphyBox>img {
+    border-radius: 20%;
+}
+
+.js-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text_color {
+    color: #E8d7F1;
+}
+
+.navbar-custom {
+    color: #E8d7F1;
+}
+
+.bg-color {
+    background-color: #A167a5;
+}
+
+.bg-color .navbar-brand {
+    color: #4A306D;
+    margin: 6px;
+}
+
+.bg-color .footer_link {
+    margin: 2px;
+}
+
+nav .navbar-brand:hover {
+    background-color: #0E273C;
+    border: 2px white solid;
+    color: #E8d7F1;
+    padding: 4px;
+    margin: 0px;
+}
+
+nav div>.footer_link:hover {
+    background-color: #0E273C;
+    color: #E8d7F1;
+    padding: 2px;
+    margin: 0px;
+}
+
+.text-color {
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav a {
+    display: flex;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bigger {
+    height: 75px;
+}
