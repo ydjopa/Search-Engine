@@ -13,42 +13,42 @@
 </head>
 
 <body class="covid">
-    <nav class="navbar navbar-expand-sm navbar-light bg-dark bigger ">
-        <div class="logo">
-            <img src="img/bg1.jpg" alt="COVID-19" class="logo">
-            <a class="navbar-logo" href="index.html">
-                THE COVID SEACH ENGINE
-            </a>
-        </div>
-    </nav>
-    <header class="text">
-        <h1>COVID-19 IN THE US</h1>
-        <h2>OFFICIAL NUMBER</h2>
-    </header>
-    <div class="search">
-        <form class="js-search" action="#" method="POST">
-            <fieldset class="tracker">
-                <legend>COVID TRACKER</legend>
-            </fieldset>
-            <div class="container-search">
-                <div class="input-field">
-                    <div class="input-wrap first">
-                        <div class="input-field first">
-                            <label>WHAT:</label><br>
-                            <input type="text" placeholder="Enter your inquiry">
-                        </div>
-                        <div class="input-wrap second">
-                            <div class="input-field second my-2 my-sm-0 my-btn">
-                                <label>DATE:</label>
-                                <br>
-                                <input type="date" name="service_date" min="2000-01-01" max="2999-12-31">
+    <section class="main">
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark bigger ">
+            <div class="logo">
+                <img src="img/logo1.jpg" alt="COVID-19" class="logo">
+                <a class="navbar-logo" href="index.html">
+                    <b>THE COVID SEACH ENGINE</b>
+                </a>
+            </div>
+        </nav>
+        <header class="text">
+            <h1>COVID-19 IN THE US</h1>
+        </header>
+        <div class="search">
+            <form class="js-search" action="#" method="POST">
+                <fieldset class="tracker">
+                    <legend>COVID TRACKER</legend>
+                </fieldset>
+                <div class="container-search">
+                    <div class="input-field">
+                        <div class="input-wrap first">
+                            <div class="input-field first">
+                                <label>WHAT:</label><br />
+                                <input type="text" placeholder="Enter your inquiry">
                             </div>
-                        </div>
-                        <div class="input-wrap third">
-                            <div class="input-field third">
-                                <label>LACATION:</label>
-                                <div class="input-select">
-                                    <select class="form-control" name="choices-single-defaul">
+                            <div class="input-wrap second">
+                                <div class="input-field second my-2 my-sm-1 my-btn">
+                                    <label>DATE:</label><br />
+
+                                    <input type="date" name="service_date" min="2000-01-01" max="2999-12-31">
+                                </div>
+                            </div>
+                            <div class="input-wrap third">
+                                <div class="input-field third">
+                                    <label>LACATION:</label>
+                                    <div class="input-select">
+                                        <select class="form-control" name="choices-single-defaul">
                                         <option placeholder="">Select a State</option>
                                         <option value="AL">Alabama</option>
                                         <option value="AK">Alaska</option>
@@ -101,42 +101,39 @@
                                         <option value="WI">Wisconsin</option>
                                         <option value="WY">Wyoming</option>
                                     </select>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="search-button">
-                            <button class="btn-search" type="button">SEARCH</button>
+                            <div class="search-button">
+                                <button class="btn-search" type="button" href="#">SEARCH</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </form>
-    </div>
-    <div class="container" id="content">
-        <div id="data" class="row"></div>
-    </div>
-    <!--<div class="js-display-title"></div>
-    <div class="js-container"></div>-->
+            </form>
+        </div>
+        <div class="js-results">
+        </div>
 
-    <div class="text-color">
-        <nav class="navbar fixed-bottom navbar-light bg-dark">
-            <span class="text-color">Copyright © 2020: COVID Tracker built by Yves Djopa.</span><a href="https://covidtracking.com/api">Source: The COVID Tracking Project
+        <div class="text-color">
+            <nav class="navbar fixed-bottom navbar-light bg-dark">
+                <span class="text-color">Copyright © 2020: COVID Tracker - Yves Djopa.</span><a href="https://covidtracking.com/api"> The COVID Tracking Project</a>
+            </nav>
+            <a href="https://covidtracking.com/api"></a>
 
-            </a></nav>
+        </div>
         <a href="https://covidtracking.com/api">
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+            </script>
+            <script src="js/main.js"></script>
         </a>
-    </div>
-    <a href="https://covidtracking.com/api">
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
-        <script src="js/main.js"></script>
-    </a>
+    </section>
 </body>
 
 </html>

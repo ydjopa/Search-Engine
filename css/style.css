@@ -1,23 +1,34 @@
-COVID
 /*--Let's start by styling all semantic elements---*/
 
-h1,
-h2,
-form {
-    border: 1px black solid;
+.search {
+    border: 2px #ffffff solid;
+    margin: 70px;
 }
 
 html {
     height: 100%;
 }
 
-.text {
-    padding-top: 40px;
+header {
+    padding: 20px;
 }
 
-h1,
-h2 {
+.search {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    padding: 20px;
+    margin: 25px;
+}
+
+h1 {
     text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+.container-search {
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 
@@ -46,20 +57,24 @@ p.purpleBackground {
 }
 
 
-/***********************************/
-
-.search .container-search {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
+/****************.container-search*******************/
 
 legend {
-    padding: 10px 50px;
+    padding: 0px;
+    margin: 0px;
+    color: #f0760b;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
 }
 
-.search .input-field .search-button .tracker {
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-field .search-button .tracker {
     padding: 10px;
     width: 350px;
 }
@@ -76,17 +91,42 @@ legend {
     }
 }
 
-.search {
-    padding: 20px;
+
+/* To create the effect on the button keeping the button unchanged after you hover over use .btn:hover */
+
+.btn-search:hover,
+.btn-search:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #f7d7b5;
+    text-decoration: none;
 }
 
 .btn-search {
-    margin: 10px 0px;
-    padding: 5px;
+    margin: 15px 0px;
+    padding: 10px;
+    color: rgba(255, 60, 0, 0.886);
+    font-weight: bold;
 }
 
+.logo a {
+    background-color: transparent;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    margin: justify;
+    color: #ffff;
+}
+
+
+/* ---- Text deco gets rid of the underlines ---- */
+
 fieldset {
-    padding: 0.35em 0.75em 0.625em;
+    padding: 0px;
+}
+
+.input-field first {
+    padding-top: 5px;
 }
 
 
@@ -96,20 +136,20 @@ fieldset {
     height: 60px;
     width: auto;
     float: left;
+    padding-right: 10px;
 }
 
-.logo a {
-    padding: 20px;
-}
 
-.form button {
-    padding: 5px;
-    font-family: "Balsamiq Sans", cursive;
-}
+/* ----- Background Image ------ */
 
-.form button:hover {
-    background-color: #A167a5;
-    color: #E8d7F1;
+.main {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 0.2)), url("../img/bg4.jpg");
+    /* near-gradient is used to put text on image and make the image darker */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
 }
 
 .giphyBox {
@@ -130,54 +170,26 @@ fieldset {
     justify-content: center;
 }
 
-.text_color {
-    color: #E8d7F1;
-}
 
-.navbar-custom {
-    color: #E8d7F1;
-}
+/* ---- Anchor footer ----- */
 
-.bg-color {
-    background-color: #A167a5;
-}
-
-.bg-color .navbar-brand {
-    color: #4A306D;
-    margin: 6px;
-}
-
-.bg-color .footer_link {
-    margin: 2px;
-}
-
-nav .navbar-brand:hover {
-    background-color: #0E273C;
-    border: 2px white solid;
-    color: #E8d7F1;
-    padding: 4px;
-    margin: 0px;
-}
-
-nav div>.footer_link:hover {
-    background-color: #0E273C;
-    color: #E8d7F1;
-    padding: 2px;
-    margin: 0px;
+.text-color a:hover {
+    color: rgb(255, 183, 0);
+    text-decoration: none;
 }
 
 .text-color {
     color: #ffffff;
-    padding: 20px;
+    padding: auto;
 }
 
+
+/* ----- Footer text ------- */
+
+span,
 nav a {
     display: flex;
     color: #ffffff;
-    padding: 10px;
-    margin: 10px;
-}
-
-.bigger {
-    height: 75px;
+    text-align: center;
+    margin: 5px;
 }
