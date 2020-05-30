@@ -1,4 +1,4 @@
-/*--Let's start by styling all semantic elements---*/
+/*-- Semantic elements styling---*/
 
 .search {
     border: 2px #ffffff solid;
@@ -9,63 +9,27 @@ html {
     height: 100%;
 }
 
-header {
-    padding: 20px;
-}
-
-.search {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
-    padding: 20px;
-    margin: 25px;
-}
-
-h1 {
-    text-align: center;
-    color: #ffffff;
-    font-weight: bolder;
-    padding-bottom: 0px;
-}
-
-.container-search {
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-
-/*--Defining a class to style a particular bloc element--*/
-
-.grayBackground {
-    background-color: #F0F2F1;
-}
-
-.blueBackground {
-    background-color: #1F85DE;
-}
-
-.pinkBackground {
-    background-color: #ecc7e3;
-}
-
-.orangeBackground {
-    background-color: #DE781F;
-}
-
-p.purpleBackground {
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-}
-
-
-/****************.container-search*******************/
-
 legend {
-    padding: 0px;
-    margin: 0px;
+    text-align: center;
     color: #f0760b;
     font-weight: bolder;
     font-size: -webkit-xxx-large;
 }
+
+h2 {
+    text-align: center;
+    color: #f0760b;
+    font-weight: bolder;
+    font-size: -webkit-xx-large;
+}
+
+hr {
+    border-color: #f0760b;
+    padding-bottom: 10px;
+}
+
+
+/*---Container-search---*/
 
 .search {
     display: flex;
@@ -77,6 +41,17 @@ legend {
 .input-field .search-button .tracker {
     padding: 10px;
     width: 350px;
+}
+
+.search {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    padding: 20px;
+    margin: 25px;
+}
+
+.container-search {
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 @media only screen and (min-width: 450px) {
@@ -100,14 +75,20 @@ input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #f7d7b5;
     text-decoration: none;
+    background: none;
+    border-color: #f0760b;
+    transition: all 0.3s ease 0s;
 }
 
 .btn-search {
     margin: 15px 0px;
     padding: 10px;
-    color: rgba(255, 60, 0, 0.886);
+    color: #f0760b;
     font-weight: bold;
 }
+
+
+/* ---- Text deco gets rid of the underlines ---- */
 
 .logo a {
     background-color: transparent;
@@ -119,7 +100,7 @@ input[type=submit]:active {
 }
 
 
-/* ---- Text deco gets rid of the underlines ---- */
+/* ---- Input Field ---- */
 
 fieldset {
     padding: 0px;
@@ -152,6 +133,9 @@ fieldset {
     height: 100vh;
 }
 
+
+/*---NEED TO REVIEW THIS----*/
+
 .giphyBox {
     display: flex;
     align-items: center;
@@ -174,7 +158,7 @@ fieldset {
 /* ---- Anchor footer ----- */
 
 .text-color a:hover {
-    color: rgb(255, 183, 0);
+    color: #f0760b;
     text-decoration: none;
 }
 
@@ -184,7 +168,7 @@ fieldset {
 }
 
 
-/* ----- Footer text ------- */
+/* ----- Navigation Text ------- */
 
 span,
 nav a {
@@ -192,4 +176,8 @@ nav a {
     color: #ffffff;
     text-align: center;
     margin: 5px;
+}
+
+nav a:hover {
+    color: #f0760b;
 }
