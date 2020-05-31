@@ -26,6 +26,12 @@ function getState(btnSearch) {
     axios.get(Url + btnSearch + inputRandom + inputDate + inputState)
         .then(function(response) {
                 console.log(response);
-                $.each(state, )
+                let covid = response.data.Search;
+                let output = '';
+                $.each(state, (index, state) => {
+                    output += `
+                  <div class="card">
+                  `;
+                });
             }
         }
