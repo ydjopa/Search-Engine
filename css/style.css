@@ -2,7 +2,8 @@
 
 .search {
     border: 2px #ffffff solid;
-    margin: 70px;
+    margin: auto;
+    padding: auto;
 }
 
 html {
@@ -18,7 +19,7 @@ legend {
 
 h2 {
     text-align: center;
-    color: #f0760b;
+    color: #ffffff;
     font-weight: bolder;
     font-size: -webkit-xx-large;
 }
@@ -134,24 +135,33 @@ fieldset {
 }
 
 
-/*---NEED TO REVIEW THIS----*/
+/*---Grid Creation Styling----*/
 
-.giphyBox {
-    display: flex;
-    align-items: center;
-    background-color: #D3BCCC;
-    margin: 5px;
-    padding: 10px;
+#js-results {
+    max-width: 12000px;
+    margin: 0 auto;
 }
 
-.giphyBox>img {
-    border-radius: 20%;
-}
-
-.js-container {
+.container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid #f0760b;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        flex: 1 1 calc(50% -2rem);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card {
+        flex: 1 1 calc(33% - 2rem);
+    }
 }
 
 
