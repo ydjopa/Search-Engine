@@ -10,6 +10,11 @@ html {
     height: 100%;
 }
 
+lebel {
+    display: inline-block;
+    margin-bottom: 0rem;
+}
+
 legend {
     text-align: center;
     color: #f0760b;
@@ -30,7 +35,7 @@ hr {
 }
 
 
-/*---Container-search---*/
+/*--- Form ---*/
 
 .search {
     display: flex;
@@ -55,15 +60,12 @@ hr {
     font-weight: bolder;
 }
 
-@media only screen and (min-width: 450px) {
-    .search .input-field {
-        width: 300px;
-    }
-}
 
-@media (min-width: 640px) {
-    .search {
-        padding-right: 100px;
+/*--- Media Query ---*/
+
+@media only screen and (min-width: 340px) {
+    .search .input-field {
+        width: 100%;
     }
 }
 
@@ -125,8 +127,8 @@ fieldset {
 /* ----- Background Image ------ */
 
 .main {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg4.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 0.2)), url("../img/bg4.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
     /* near-gradient is used to put text on image and make the image darker */
     background-size: cover;
     background-attachment: fixed;
@@ -185,9 +187,53 @@ nav a {
     display: flex;
     color: #ffffff;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 nav a:hover {
     color: #f0760b;
 }
+
+
+/*-- Input Box Sizes -- */
+
+input[type=text] {
+    -webkit-appearance: listbox;
+    width: 100%;
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=time] {
+    -webkit-appearance: listbox;
+    width: 100%;
+}
+
+.form-control .input-field {
+    width: 100%;
+}
+
+
+/*
+display: block;
+height: calc(1.5em + .75rem + 2px);
+padding: .375rem .75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,
+box-shadow .15s ease-in-out;
+*/
+
+
+/*@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Bad+Script&family=Courgette&family=Julee&display=swap");
+html {
+    min-height: 100%;
+    position: relative;
+} */

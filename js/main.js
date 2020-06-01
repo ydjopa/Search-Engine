@@ -34,4 +34,4 @@ function getState(btnSearch) {
                   `;
                 });
             }
-        }
+        });
