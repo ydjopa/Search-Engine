@@ -1,7 +1,4 @@
-#############################################
 ########   COVID-19 SEARCH ENGINE   #########
-#############################################
-
 
 This is a national COVID-19 tracking tool to enable quick search on the latest COVID-19 stats in the US territory. This search engine provides sets of comprehensive information to evaluate each state’s data which inlcude:
 - Positive: Total cumulative positive test results

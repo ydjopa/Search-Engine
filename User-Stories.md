@@ -1,6 +1,5 @@
-############################################
-############## USER STORIES ################
-############################################
+######## USER STORIES ########
+
 
 USER 1: 
 As a media or independant news anchor I would like keep tracking COVID-19 data from every state on a daily basis so that I can report the latest numbers on tests, confirmed cases, hospitalizations, and patient outcomes from every US state and territory.
