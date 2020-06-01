@@ -16,8 +16,8 @@ This is a national COVID-19 tracking tool to enable quick search on the latest C
 - DeathIncrease: Increase from the day before
 - HospitalizedIncrease: Increase from the day before
 - NegativeIncrease: Increase from the day before
-- positiveIncrease: 
-- TotalTestResultsIncrease: 
+- positiveIncrease: Increase from the day before
+- TotalTestResultsIncrease: Increase from the day before
 - LastUpdateEt: The time when the data was published
 - DataQualityGrade: The state's data quality grade
 - states: Quantity of states and territories that are reporting data
