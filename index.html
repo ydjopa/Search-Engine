@@ -35,18 +35,18 @@
                     <div class="input-field">
                         <div class="input-field-first">
                             <label>WHAT:</label><br />
-                            <input class="input-select" type="text" placeholder="Enter your inquiry" id="" name="inquiry">
+                            <input class="input-select" type="text" placeholder="Enter your inquiry" id="" name="inquiry" required>
                         </div>
                         <div class="input-field-second my-2 my-sm-1 my-btn">
                             <label>DATE:</label><br />
-                            <input class="input-select" type="date" name="service_date" min="2000-01-01" max="2999-12-31">
+                            <input class="input-select" type="date" name="service_date" min="2000-01-01" max="2999-12-31" required>
                         </div>
                     </div>
                     <div class="input-field-third">
                         <label>STATE:</label>
                         <div class="input-select" type="state">
                             <select class="form-control" name="choices-single-defaul">
-                            <option placeholder="">Select a State</option>
+                            <option required>Select a State</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div class="search-button">
-                        <button class="btn-search" type="button" href="#">SEARCH</button>
+                        <input class="btn-search" type="submit" value="Search">
                     </div>
                 </div>
             </form>
