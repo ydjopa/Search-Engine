@@ -30,8 +30,9 @@ function getState(btnSearch) {
                 let output = '';
                 $.each(state, (index, state) => {
                     output += `
-                  <div class="card">
+                  <div class = "col-md-3">
+                   
                   `;
                 });
+                $(state).html(output);
             }
-        });

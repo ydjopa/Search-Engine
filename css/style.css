@@ -167,31 +167,48 @@ fieldset {
 }
 
 
-/* ---- Anchor footer ----- */
+/* ----- Navigation Text ------- */
 
-.text-color a:hover {
-    color: #f0760b;
-    text-decoration: none;
+.navbar-logo {
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    margin: 15px;
 }
 
-.text-color {
+.logo a:hover {
+    color: #f0760b;
+    text-decoration: none
+}
+
+
+/* ---- Footer ----- */
+
+.footer {
     color: #ffffff;
     padding: auto;
 }
 
-
-/* ----- Navigation Text ------- */
-
-span,
-nav a {
-    display: flex;
-    color: #ffffff;
-    text-align: center;
-    margin: 10px;
+.footer-reference {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-nav a:hover {
+.footer-reference a {
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+span {
+    display: flex;
+    text-align: center;
+}
+
+.footer-reference a:hover {
     color: #f0760b;
+    text-decoration: none;
 }
 
 
