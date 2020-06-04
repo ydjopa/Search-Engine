@@ -1,256 +1,194 @@
-/*-- Semantic elements styling---*/
-
-.search {
-    border: 2px #ffffff solid;
-    margin: auto;
-    padding: auto;
-}
-
-html {
-    height: 100%;
-}
-
-lebel {
-    display: inline-block;
-    margin-bottom: 0rem;
-}
-
-legend {
-    text-align: center;
-    color: #f0760b;
-    font-weight: bolder;
-    font-size: -webkit-xxx-large;
-}
-
-h2 {
-    text-align: center;
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: -webkit-xx-large;
-}
-
-hr {
-    border-color: #f0760b;
-    padding-bottom: 10px;
-}
-
-
-/*--- Form ---*/
-
-.search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.input-field .search-button .tracker {
-    padding: 10px;
-    width: 350px;
-}
-
-.search {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
-    padding: 20px;
-    margin: 25px;
-}
-
-.container-search {
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-
-/*--- Media Query ---*/
-
-@media only screen and (min-width: 340px) {
-    .search .input-field {
-        width: 100%;
+    /*-- Semantic elements styling---*/
+    
+    body {
+        line-height: 2rem;
     }
-}
-
-
-/* To create the effect on the button keeping the button unchanged after you hover over use .btn:hover */
-
-.btn-search:hover,
-.btn-search:active,
-input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #f7d7b5;
-    text-decoration: none;
-    background: none;
-    border-color: #f0760b;
-    transition: all 0.3s ease 0s;
-}
-
-.btn-search {
-    margin: 15px 0px;
-    padding: 10px;
-    color: #f0760b;
-    font-weight: bold;
-}
-
-
-/* ---- Text deco gets rid of the underlines ---- */
-
-.logo a {
-    background-color: transparent;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 5px;
-    margin: justify;
-    color: #ffff;
-}
-
-
-/* ---- Input Field ---- */
-
-fieldset {
-    padding: 0px;
-}
-
-.input-field first {
-    padding-top: 5px;
-}
-
-
-/* ----- logo ------ */
-
-.logo {
+    
+    html {
+        height: 100%;
+    }
+    
+    h2 {
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 0rem;
+        color: whitesmoke;
+        font-size: 30px;
+        font-size: -webkit-xxx-large;
+    }
+    
+    .container-search {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /*--- Form ---*/
+    
+    .search {
+        border: 0px #ffffff solid;
+        margin: auto;
+        padding: auto;
+    }
+    
+    form {
+        max-width: 100%;
+        line-height: 1.5;
+    }
+    
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .search {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+        padding: 0px;
+        margin-top: 220px;
+    }
+    
+    .js-search {
+        width: 40%;
+    }
+    
+    .form-control {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*--- Media Query ---*/
+    
+    @media only screen and (min-width: 340px) {
+        .search .input-field {
+            width: 100%;
+        }
+    }
+    /* To create the effect on the button keeping the button unchanged after you hover over use .btn:hover */
+    
+    .btn-search:hover,
+    .btn-search:active,
+    input[type=submit]:hover,
+    input[type=submit]:active {
+        text-decoration: none;
+        background: none;
+        border-color: whitesmoke;
+        transition: all 0.3s ease 0.1s;
+    }
+    
+    .btn-search {
+        margin: 15px 0px;
+        padding: 10px;
+        color: whitesmoke;
+        background-color: #2773C1;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* ---- Text deco gets rid of the underlines ---- */
+    
+    .logo a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #ffff;
+    }
+    /* ----- logo ------ */
+    /*.logo {
     height: 60px;
     width: auto;
     float: left;
     padding-right: 10px;
-}
-
-
-/* ----- Background Image ------ */
-
-.main {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
-    /* near-gradient is used to put text on image and make the image darker */
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-}
-
-
-/*---Grid Creation Styling----*/
-
-#js-results {
-    max-width: 12000px;
-    margin: 0 auto;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card {
-    margin: 1rem;
-    border: 1px solid #f0760b;
-}
-
-@media screen and (min-width: 600px) {
-    .card {
-        flex: 1 1 calc(50% -2rem);
+}*/
+    /* ----- Background Image ------ */
+    
+    .container-main {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/logo.jpg");
+        /* near-gradient is used to put text on image and make the image darker */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
     }
-}
-
-@media screen and (min-width: 900px) {
-    .card {
-        flex: 1 1 calc(33% - 2rem);
+    /*---Grid Creation Styling----*/
+    
+    #js-results {
+        max-width: 12000px;
+        margin: 0 auto;
     }
-}
-
-
-/* ----- Navigation Text ------- */
-
-.navbar-logo {
-    display: flex;
-    color: #ffffff;
-    text-align: center;
-    margin: 15px;
-}
-
-.logo a:hover {
-    color: #f0760b;
-    text-decoration: none
-}
-
-
-/* ---- Footer ----- */
-
-.footer {
-    color: #ffffff;
-    padding: auto;
-}
-
-.footer-reference {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.footer-reference a {
-    margin-left: 5px;
-    color: #ffffff;
-}
-
-span {
-    display: flex;
-    text-align: center;
-}
-
-.footer-reference a:hover {
-    color: #f0760b;
-    text-decoration: none;
-}
-
-
-/*-- Input Box Sizes -- */
-
-input[type=text] {
-    -webkit-appearance: listbox;
-    width: 100%;
-}
-
-input[type=date],
-input[type=datetime-local],
-input[type=month],
-input[type=time] {
-    -webkit-appearance: listbox;
-    width: 100%;
-}
-
-.form-control .input-field {
-    width: 100%;
-}
-
-
-/*
-display: block;
-height: calc(1.5em + .75rem + 2px);
-padding: .375rem .75rem;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.5;
-color: #495057;
-background-color: #fff;
-background-clip: padding-box;
-border: 1px solid #ced4da;
-border-radius: .25rem;
-transition: border-color .15s ease-in-out,
-box-shadow .15s ease-in-out;
-*/
-
-
-/*@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Bad+Script&family=Courgette&family=Julee&display=swap");
-html {
-    min-height: 100%;
-    position: relative;
-} */
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        margin: 1rem;
+        border: 1px solid #f0760b;
+    }
+    
+    @media screen and (min-width: 600px) {
+        .card {
+            flex: 1 1 calc(50% -2rem);
+        }
+    }
+    
+    @media screen and (min-width: 900px) {
+        .card {
+            flex: 1 1 calc(33% - 2rem);
+        }
+    }
+    /* ----- Navigation Text ------- */
+    
+    .navbar-logo {
+        display: flex;
+        color: #ffffff;
+        text-align: center;
+        margin: 15px;
+    }
+    
+    .logo a:hover {
+        color: #f0760b;
+        text-decoration: none;
+    }
+    /* ---- Footer ----- */
+    
+    .footer {
+        color: #ffffff;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .footer-reference a {
+        margin-left: 5px;
+        color: #ffffff;
+    }
+    
+    .footer-reference {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .footer-reference a:hover {
+        color: #f0760b;
+        text-decoration: none;
+    }
+    /*-- Input Box Sizes -- */
+    
+    input[type=text] {
+        -webkit-appearance: listbox;
+        width: 100%;
+    }
+    
+    input[type=date],
+    input[type=datetime-local],
+    input[type=month],
+    input[type=time] {
+        -webkit-appearance: listbox;
+        width: 100%;
+    }
