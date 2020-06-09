@@ -111,8 +111,6 @@
                Screenshot(date, state);
 
 
-
-
            } else {
                console.log('error')
                document.getElementById("nodata").innerHTML = 'Please make a different selection. Data is unavailable!';
@@ -122,10 +120,6 @@
 
        }
        request.send();
-
-
-
-
 
 
    }
