@@ -1,7 +1,4 @@
 const url = 'https://covidtracking.com/api/v1/states/current.json';
-const inputRandom = "WHAT";
-const inputDate = "DATE";
-const inputState = "STATE";
 
 $(document).ready(() => {
 
@@ -13,6 +10,12 @@ function getData() {
 
     var e = document.getElementById("dropdown");
     var states = e.options[e.selectedIndex].value;
+    //console.log(states);
+    //if (states == "US") {
+    // US api call
+    //} else {
+    //
+
     if (array.length > 0) {
         for (i = 0; i < array.length; i++) {
             if (array[i].state == states) {

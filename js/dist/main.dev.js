@@ -1,16 +1,17 @@
 "use strict";
 
 var url = 'https://covidtracking.com/api/v1/states/current.json';
-var inputRandom = "WHAT";
-var inputDate = "DATE";
-var inputState = "STATE";
 $(document).ready(function () {});
 var array = new Array();
 var arrayImages = new Array();
 
 function getData() {
   var e = document.getElementById("dropdown");
-  var states = e.options[e.selectedIndex].value;
+  var states = e.options[e.selectedIndex].value; //console.log(states);
+  //if (states == "US") {
+  // US api call
+  //} else {
+  //
 
   if (array.length > 0) {
     for (i = 0; i < array.length; i++) {
