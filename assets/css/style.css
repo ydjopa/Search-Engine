@@ -69,7 +69,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
     color: #212529;
     text-align: left;
     background-color: #fff;
@@ -81,7 +80,7 @@ body {
 }
 
 .form-arka-plan {
-    background-image: url("../../img/bg.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.3)), url("../../img/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +114,10 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+}
+
+h2 {
+    color
 }
 
 p {
@@ -192,24 +195,8 @@ sup {
 }
 
 a {
-    color: #005495;
     text-decoration: none;
     background-color: transparent;
-}
-
-a:hover {
-    color: #308c84;
-    text-decoration: underline;
-}
-
-a:not([href]) {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:not([href]):hover {
-    color: inherit;
-    text-decoration: none;
 }
 
 pre,
@@ -354,11 +341,14 @@ legend {
     white-space: normal;
 }
 
+
+/*
 @media (max-width: 1200px) {
     legend {
         font-size: calc(1.275rem + 0.3vw);
     }
 }
+*/
 
 progress {
     vertical-align: baseline;
@@ -396,9 +386,10 @@ template {
     display: none;
 }
 
-[hidden] {
+
+/*[hidden] {
     display: none !important;
-}
+}*/
 
 h1,
 h2,
@@ -431,7 +422,8 @@ h1,
 
 h2,
 .h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 @media (max-width: 1200px) {
