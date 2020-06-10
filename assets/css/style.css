@@ -29,7 +29,6 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
-    --black: #212529;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -10087,7 +10086,7 @@ a.text-dark:focus {
         text-decoration: underline;
     }
     abbr[title]::after {
-        content: " (" attr(title) ")";
+        content: " ("attr(title) ")";
     }
     pre {
         white-space: pre-wrap !important;
@@ -13710,7 +13709,7 @@ h1.title {
 
 #site-footer .bottom-footer {
     font-size: 0.875em;
-    background-color: #212529;
+    background-color: #15202b;
     padding: 1.25em 0;
     position: fixed;
     bottom: 0;
@@ -13796,14 +13795,14 @@ max-width: 1199px
 
 
 /* -------------------------------------------------
-max-width: 991px
+min-width: 991px
 ---------------------------------------------------*/
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 991px) {
     #site-header {
-        padding-left: 25px;
+        /*padding-left: 25px;*/
         padding-right: 25px;
-        background: #212529;
+        background: #15202b;
     }
     .navbar-toggler {
         padding: 0.25rem 0rem;
@@ -14994,6 +14993,10 @@ ul.list {
     line-height: 25px;
 }
 
+header {
+    padding: 0px;
+}
+
 .header {
     color: var(--heading-color);
     line-height: 30px;
@@ -15001,6 +15004,10 @@ ul.list {
     margin-bottom: 10px;
     text-transform: capitalize;
     font-weight: 600;
+}
+
+.fixed-top {
+    background-color: #15202b;
 }
 
 h3.header.follow {
@@ -15189,6 +15196,3 @@ strong.info {
         margin-top: 15px;
     }
 }
-
-
-/*# sourceMappingURL=style-starter.css.map */
