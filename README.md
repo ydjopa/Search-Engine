@@ -34,5 +34,5 @@ This is a national COVID-19 tracking tool to enable quick search on the latest C
 - jQuery
 - Font Awesome
 - ADOBE XD (Wireframe)
-- API (Powered by : The Covid Tracking Project.)
+- API (The Covid Tracking Project.)
 
