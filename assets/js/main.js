@@ -69,7 +69,6 @@
            // Begin accessing JSON data here
            var data = JSON.parse(this.response);
 
-
            console.log(request.status);
            if (request.status >= 200 && request.status < 400) {
                document.getElementById('resultgrid').style.display = "block";
@@ -110,17 +109,13 @@
                document.getElementById("nodata").innerHTML = '';
                Screenshot(date, state);
 
-
            } else {
                console.log('error')
-               document.getElementById("nodata").innerHTML = 'Please make a different selection. Data is unavailable!';
+               document.getElementById("nodata").innerHTML = 'Please make a different selection. Data is unavailable!'; // error message
 
            }
-
-
        }
        request.send();
-
 
    }
 
@@ -151,7 +146,6 @@
 
                    }
 
-
                }
                if (htmllink != '') {
                    htmllink = htmllink + '</ul>';
@@ -159,13 +153,10 @@
                    document.getElementById('screenshotdiv').innerHTML = htmllink;
                }
 
-
-
            } else {
 
 
            }
-
 
        }
 
