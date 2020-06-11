@@ -23,3 +23,14 @@ This is a national COVID-19 tracking tool to enable quick search on the latest C
 - Date Checked: ISO 8601 date of when these values were valid.
 - States/Territories Report: Quantity of states and territories that are reporting data
 
+######## Technologies used ######## 
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- jQuery
+- API
+- Font Awesome
+- ADOBE XD (Wireframe)
+
