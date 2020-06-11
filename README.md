@@ -6,10 +6,10 @@ This is a national COVID-19 tracking tool to enable quick search on the latest C
 - Pending Test: Tests that have been submitted to a lab but no results have been reported yet
 - Hospitalized Currently: Number of individuals currently hospitalized
 - Hospitalized Cumulative: Total number of individuals that have been hospitalized, including those that have been discharged
-- Currently In Icu: Number of individuals currently in an ICU
-- Cumulative In Icu: Total number of individuals that have been in the ICU
-- Currently On Ventilator: Number of individuals currently on a ventilator
-- Cumulative On Ventilator: Total number of individuals that have been on a ventilator
+- Currently in ICU: Number of individuals currently in an ICU
+- Cumulative in ICU: Total number of individuals that have been in the ICU
+- Currently on Ventilator: Number of individuals currently on a ventilator
+- Cumulative on Ventilator: Total number of individuals that have been on a ventilator
 - Recovered Patients: Total number of individuals that have tested negative after a previous positive test
 - Number of Death: Total cumulative number of people that have died
 - Daily Death Increase: Increase from the day before
