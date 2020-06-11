@@ -137,6 +137,10 @@ user agent stylesheet div {
 01. HEADER
 *===================================*/
 
+.height {
+    height: 30px;
+}
+
 header {
     transition: all 0.4s ease 0s;
     background: #121833;
@@ -313,12 +317,12 @@ header.nav-fixed {
 0.4 FOOTER
 *===================================*/
 
-#site-footer .top-footer {
+#sites-footer .top-footer {
     padding: 1.25em 0;
     background: #121833;
 }
 
-#site-footer .footer-title {
+#sites-footer .footer-title {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 1.25em;
@@ -332,7 +336,7 @@ header.nav-fixed {
     list-style: none;
 }
 
-#site-footer .footer-logo a {
+#sites-footer .footer-logo a {
     font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
@@ -343,7 +347,7 @@ header.nav-fixed {
     padding: 0.25em 0;
 }
 
-#site-footer .footer-list .li-icon::before {
+#sites-footer .footer-list .li-icon::before {
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -355,7 +359,7 @@ header.nav-fixed {
     content: "\f105";
 }
 
-#site-footer .footer-list .li-icon {
+#sites-footer .footer-list .li-icon {
     margin-right: 10px;
 }
 
@@ -363,7 +367,7 @@ header.nav-fixed {
     position: relative;
 }
 
-#site-footer .newsletter-form .input-rounded {
+#sites-footer .newsletter-form .input-rounded {
     border: 0;
     padding: 0.85em 1.25em;
     width: 100%;
@@ -372,11 +376,11 @@ header.nav-fixed {
     border-radius: 8px;
 }
 
-#site-footer .newsletter-form .input-rounded:focus {
+#sites-footer .newsletter-form .input-rounded:focus {
     outline: none;
 }
 
-#site-footer .newsletter-form .btn {
+#sites-footer .newsletter-form .btn {
     padding: 7px 30px;
     position: absolute;
     right: 5px;
@@ -387,7 +391,7 @@ header.nav-fixed {
     border: 0;
 }
 
-#site-footer .newsletter-form .btn-style:hover {
+#sites-footer .newsletter-form .btn-style:hover {
     transform: translateY(0px);
 }
 
@@ -395,7 +399,7 @@ header.nav-fixed {
     text-decoration: none;
 }
 
-#site-footer .bottom-footer {
+#sites-footer .bottom-footer {
     font-size: 0.875em;
     background-color: #121833;
     padding: 1.25em 0;
@@ -404,38 +408,38 @@ header.nav-fixed {
     width: 100%;
 }
 
-#site-footer .social-item {
+#sites-footer .social-item {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
-#site-footer .social-item img {
+#sites-footer .social-item img {
     max-width: 1em;
 }
 
-#site-footer p,
-#site-footer a {
+#sites-footer p,
+#sites-footer a {
     margin: 0;
     color: #999;
 }
 
-#site-footer a:hover {
+#sites-footer a:hover {
     color: #fff;
 }
 
-#site-footer ul.footer-menu {
+#sites-footer ul.footer-menu {
     text-align: right;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#site-footer ul.footer-menu li {
+#sites-footer ul.footer-menu li {
     margin-left: 1em;
     display: inline-block;
 }
 
-#site-footer ul.footer-menu li:first-child {
+#sites-footer ul.footer-menu li:first-child {
     margin-left: 0;
 }
 
