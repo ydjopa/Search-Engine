@@ -102,7 +102,7 @@ function SearchResult() {
       Screenshot(date, state);
     } else {
       console.log('error');
-      document.getElementById("nodata").innerHTML = 'Please make a different selection. Data is unavailable!'; // error message
+      document.getElementById("nodata").innerHTML = 'Please make a different selection. Data are unavailable!'; // error message
     }
   };
 
