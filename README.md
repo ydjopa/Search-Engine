@@ -1,4 +1,4 @@
-########   COVID-19 SEARCH ENGINE   #########
+#   COVID-19 SEARCH ENGINE  
 
 Webpage: https://ydjopa.github.io/Search-Engine/index.html
 
@@ -25,7 +25,7 @@ This is a national COVID-19 tracking tool to enable quick search on the latest C
 - Date Checked: ISO 8601 date of when these values were valid.
 - States/Territories Report: Quantity of states and territories that are reporting data
 
-######## Technologies used ######## 
+# Technologies used  
 
 - HTML
 - CSS
