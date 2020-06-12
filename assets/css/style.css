@@ -7,8 +7,6 @@
     --heading-color: #3f3d56;
 }
 
-element.style {}
-
 @media (min-width: 768px) .col-md-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
