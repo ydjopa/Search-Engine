@@ -55,9 +55,9 @@
        date = date.replace('-', '');
        var url = '';
        if (state == 'us') {
-           url = 'https://covidtracking.com/api/v1/us/' + date + '.json'
+           url = 'https://api.covidtracking.com/v1/us/' + date + '.json'
        } else {
-           url = 'https://covidtracking.com/api/v1/states/' + state + '/' + date + '.json'
+           url = 'https://api.covidtracking.com/v1/states/' + state + '/' + date + '.json'
        }
 
 
@@ -123,7 +123,7 @@
 
 
        var requestnew = new XMLHttpRequest()
-       url = "https://covidtracking.com/api/v1/states/screenshots.json";
+       url = "https://api.covidtracking.com/v1/states/screenshots.json";
        requestnew.open('GET', url, true)
        requestnew.onload = function() {
            var htmllink = "";
